@@ -1,0 +1,439 @@
+/* GERAL */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+#div-title{
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+    color: #2a69e9;
+}
+
+/* SOBREMIM */
+
+#main-section-sobre-mim{
+    background-image: url(../Imagens/background-tech.png); 
+    background-size: cover;
+    box-shadow: 0px 5px 15px black;
+    padding: 30px 0;
+}
+
+#sobreMim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1293px;
+    max-height: 608px;
+    margin: auto;
+    color: white;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.56);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.destaque{
+    color: #92d954;
+}
+
+#fotoDePerfil{
+    margin: 0;
+    height: auto;
+}
+
+#texto-sobre-mim{
+    max-width: 500px;
+    min-width: 700px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nome{
+    color: #2a69e9;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#botoesLinks{
+    text-align: center;
+}
+
+.botaoLink{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    color: #92d954;
+    background-color: #2a69e9;
+    margin: 5px;
+    padding: 2px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.botaoLink:hover{
+    cursor: pointer;
+    color: #2a69e9;
+    background-color: #92d954;
+    font-weight: bold;
+}
+
+.botaoLinkSobre{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    color: #92d954;
+    background-color: #2a69e9;
+    margin: 5px;
+    padding: 2px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.botaoLinkSobre:hover{
+    cursor: pointer;
+    color: #2a69e9;
+    background-color: #92d954;
+    font-weight: bold;
+}
+
+/* HABILIDADES */
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1290px;
+    margin: auto;
+}
+
+.skillsbox {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.skillbox{
+    text-align: center;
+    min-width: 338px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+}
+
+/* Barra de rolagem */
+.skillsbox::-webkit-scrollbar {
+    display: none;
+}
+
+.skillinfo{
+    display: flex;
+    align-items: center;
+}
+
+.skilltext{
+    font-size: 20px;
+    white-space: normal;
+}
+
+.skilltitle{
+    white-space: normal;
+}
+
+/* HABILIDADES TÉCNICAS*/
+
+#tec-box {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    max-width: 1280px;
+    overflow: auto;
+    margin: 0;
+    white-space: nowrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.img-tec{
+    max-width: 194px;
+    -webkit-user-drag: none;
+}
+
+/* Barra de rolagem */
+#tec-box::-webkit-scrollbar {
+    display: none;
+}
+
+#div-tec-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1290px;
+    margin: auto;
+}
+
+.btn-scroll {
+    color: white;
+    background-color: white;
+    border: white;
+    margin: auto 0;
+    cursor: pointer;
+}
+/* O QUE EU FAÇO? */
+.card-project{
+    max-width: 380px;
+    margin: 0 21px;
+    
+}
+
+#div-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1290px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#projetos{
+    display: flex;
+    margin: 0;
+    text-align: center;
+    max-width: 1170px;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
+/* Barra de rolagem */
+#projetos::-webkit-scrollbar {
+    display: none;
+}
+
+.text-projeto{
+    white-space: normal;
+    height: 230px;
+}
+
+/* CONTATOS */
+
+#contatos{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.conts{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* RODAPÉ */
+
+.img-projeto {
+    height: 450px;
+    width: 346px;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.input-contato {
+    height: 25px;
+    width: 330px;
+    padding-left: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.input-text{
+    height: 200px;
+    width: 700px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 10px 10px 10px 10px;
+    resize: none; /* Impede o redimensionamento */
+}
+
+.main-section{
+    padding: 20px 0;
+}
+
+#whatsapp-logo{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+
+#whatsapp-personagem{
+    height: 340px;
+    width: 250px;
+}
+
+.centrar{
+    text-align: center;
+    font-size: 35px;
+}
+
+@media screen and (max-width: 1450px) {
+    #tec-box {
+        max-width: 776px;
+    }
+
+    #skills {
+        max-width: 902px;
+    }
+
+    #projetos {
+        max-width: 776px;
+    }
+
+    #div-projetos {
+        justify-content: center;
+    }
+
+    #sobreMim{
+        max-height: 900px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 920px){
+    #tec-box {
+        max-width: 388px;
+    }
+
+    .input-text{
+        height: 77px;
+        width: 333px;
+    }
+
+    #texto-sobre-mim {
+        min-width: 535px;
+    }
+
+    .conts{
+        flex-direction: column;
+    } 
+
+    #title {
+        padding-top:0 ;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #fotoDePerfil {
+        height: 350px;
+    }
+
+    #sobreMim {
+        max-height: 1200px;
+    }
+
+    #main-section-sobre-mim {
+        padding: 10px 0;
+        padding-bottom: 10px;
+    }
+
+    #texto-sobre-mim {
+        min-width: 350px;
+        margin: 0 20px;
+    }
+
+    .img-tec {
+        max-width: 120px;
+        cursor: pointer;
+    }
+
+    #tec-box{
+        max-width: 100%;
+        justify-content: flex-start;
+    }
+
+    #div-projetos {
+        justify-content: flex-start;
+    }
+
+    .card-project {
+        margin: 0 15px;
+    }
+
+    .skillbox {
+        min-width: 260px;
+    }
+
+    .text-projeto {
+        white-space: normal;
+        height: 300px;
+    }
+
+    .img-projeto {
+        height: 360px;
+        width: 250px;
+    }
+
+    #title {
+        margin: 0 15px;
+        font-size: 38px;
+    }
+
+    #nome{
+        font-size: 25px;
+    }
+    
+    #texto-sobre-mim{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.577);
+        min-width: 250px
+    }
+
+    .botaoLinkSobre{
+        width: 250px;
+    }
+
+    .btn-scroll {
+        display: none;
+    }
+}
+
